@@ -1,0 +1,32 @@
+/* Resetear estilos para asegurar consistencia */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos de la barra de navegación */
+  nav {
+    background-color: #103803;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #3d0505;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #be07be; /* Cambiar el color al pasar el cursor */
+  }
+  
